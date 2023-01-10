@@ -12,6 +12,12 @@
 config-version: "1.0.0"
 
 # Languages
+# "eng", // English
+# "spa", // Spanish
+# "ger", // German
+# "frc", // French
+# "portg", // Portuguese
+# "vie" // Vietnamese
 language: eng
 
 # Prefix plugin
@@ -122,14 +128,16 @@ Price:
 
     boots: 1320
 
+# ====(Cooldown)====
 Cooldown:
+# items
   Items:
     speed: 60
 
     health: 60
 
     soup: 60
-  
+# Potions
   Potions:
     speed: 30
 
