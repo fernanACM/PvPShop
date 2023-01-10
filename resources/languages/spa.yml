@@ -35,11 +35,11 @@ language-version: "1.0.0"
 # "{BOLD}" => TextFormat::BOLD,
 # "{RESET}" => TextFormat::RESET
 
-MenuCategory-name: "{BOLD}{BLUE}PVP SHOP"
-ArmorShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}ARMOR"
-ToolsShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}TOOLS"
-FoodShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}FOOD"
-ExtrasShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}EXTRAS"
+MenuCategory-name: "{BOLD}{BLUE}TIENDA DE PVP"
+ArmorShop-name: "{BOLD}{BLUE}TIENDA DE PVP {GREEN}- {PURPLE}ARMADURA"
+ToolsShop-name: "{BOLD}{BLUE}TIENDA DE PVP {GREEN}- {PURPLE}HERRAMIENTAS"
+FoodShop-name: "{BOLD}{BLUE}TIENDA DE PVP {GREEN}- {PURPLE}COMIDA"
+ExtrasShop-name: "{BOLD}{BLUE}TIENDA DE PVP {GREEN}- {PURPLE}EXTRAS"
 
 # Menu de categorias
 Menu-category:
