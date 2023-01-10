@@ -1,1 +1,167 @@
+#   ____            ____    ____    _                     
+#  |  _ \  __   __ |  _ \  / ___|  | |__     ___    _ __  
+#  | |_) | \ \ / / | |_) | \___ \  | '_ \   / _ \  | '_ \ 
+#  |  __/   \ V /  |  __/   ___) | | | | | | (_) | | |_) |
+#  |_|       \_/   |_|     |____/  |_| |_|  \___/  | .__/ 
+#                by fernanACM                      |_|    
 
+# Tienda básica para comprar artículos pvp. Tenemos items especiales en
+# esta tienda
+
+# Versión de lenguaje. NO TOCAR
+language-version: "1.0.0"
+# ======(CLAVES)======
+
+# "{LINE}" => "\n",
+# - COLORES
+#  & => §,
+# "{BLACK}" => TextFormat::BLACK,
+# "{DARK_BLUE}" => TextFormat::DARK_BLUE,
+# "{DARK_GREEN}" => TextFormat::DARK_GREEN,
+# "{CYAN}" => TextFormat::DARK_AQUA,
+# "{DARK_RED}" => TextFormat::DARK_RED,
+# "{PURPLE}" => TextFormat::DARK_PURPLE,
+# "{GOLD}" => TextFormat::GOLD,
+# "{GRAY}" => TextFormat::GRAY,
+# "{DARK_GRAY}" => TextFormat::DARK_GRAY,
+# "{BLUE}" => TextFormat::BLUE,
+# "{GREEN}" => TextFormat::GREEN,
+# "{AQUA}" => TextFormat::AQUA,
+# "{RED}" => TextFormat::RED,
+# "{PINK}" => TextFormat::LIGHT_PURPLE,
+# "{YELLOW}" => TextFormat::YELLOW,
+# "{WHITE}" => TextFormat::WHITE,
+# "{ORANGE}" => "§6"
+# "{BOLD}" => TextFormat::BOLD,
+# "{RESET}" => TextFormat::RESET
+
+MenuCategory-name: "{BOLD}{BLUE}PVP SHOP"
+ArmorShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}ARMOR"
+ToolsShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}TOOLS"
+FoodShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}FOOD"
+ExtrasShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}EXTRAS"
+
+# Menu de categorias
+Menu-category:
+  armor-name: "{RESET}{BOLD}{BLUE}TIENDA DE ARMADURAS"
+  armor-info: "{YELLOW}Aquí podrás comprar una gran variedad de tipos de armaduras al mejor precio"
+
+  tools-name: "{RESET}{BOLD}{GREEN}TIENDA DE HERRAMIENTAS"
+  tools-info: "{YELLOW}Aquí puedes comprar las herramientas necesarias para el combate."
+
+  food-name: "{RESET}{BOLD}{ORANGE}TIENDA DE COMIDA"
+  food-info: "{YELLOW}Aquí puedes encontrar los mejores snacks para ti"
+
+  extras-name: "{RESET}{BOLD}{PINK}TIENDA DE EXTRAS"
+  extras-info: "{YELLOW}Aquí compra artículos necesarios y raros para usar en combate."
+
+  coming-soon-name: "{RESET}{BOLD}{RED}COMING SOON AVAILABLE"
+
+  close: "{RESET}{BOLD}{DARK_RED}CERRAR MENÚ"
+  return: "{RESET}{BOLD}{DARK_GREEN}VOLVER AL MENÚ"
+
+# Uso importante de {PRICE} para ver el precio de los items
+ArmorShop-info:
+  leather_helmet: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  leather_chestplate: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  leather_leggings: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  leather_boots: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+
+  golden_helmet: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  golden_chestplate: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  golden_leggings: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  golden_boots: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+
+  chainmail_helmet: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  chainmail_chestplate: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  chainmail_leggings: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  chainmail_boots: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+
+  iron_helmet: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  iron_chestplate: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  iron_leggings: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  iron_boots: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+
+  diamond_helmet: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  diamond_chestplate: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  diamond_leggings: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  diamond_boots: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+
+# Uso importante de {PRICE} para ver el precio de los items
+ToolsShop-info:
+  wood_sword: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  wood_pickaxe: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  wood_axe: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+
+  stone_sword: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  stone_pickaxe: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  stone_axe: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+
+  golden_sword: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  golden_pickaxe: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  golden_axe: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+
+  iron_sword: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  iron_pickaxe: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  iron_axe: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+
+  diamond_sword: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  dimaond_pickaxe: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  dimaond_axe: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+
+# uso importante de {COUNT} para ver la cantidad a recibir
+# Uso importante de {PRICE} para ver el precio de los items
+FoodShop-info:
+  chicken: "{RESET}{ORANGE} x{COUNT} cuesta {AQUA}${PRICE}"
+  mutton: "{RESET}{ORANGE} x{COUNT} cuesta {AQUA}${PRICE}"
+  porkchop: "{RESET}{ORANGE} x{COUNT} cuesta {AQUA}${PRICE}"
+  rabbit: "{RESET}{ORANGE} x{COUNT} cuesta {AQUA}${PRICE}"
+  salmon: "{RESET}{ORANGE} x{COUNT} cuesta {AQUA}${PRICE}"
+  golden_apple: "{RESET}{ORANGE} x{COUNT} cuesta {AQUA}${PRICE}"
+  enchanted_golden_apple: "{RESET}{ORANGE} x{COUNT} cuesta {AQUA}${PRICE}"
+
+ExtrasShop-info:
+  # Uso importante de {PRICE} para ver el precio de los items
+  totem: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  # Uso importante de {PRICE} para ver el precio de los items
+  # Uso importante de {TIME} para ver el tiempo de cooldown
+  speed: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  speed-name: "{RESET}{BOLD}{RED}VELOCIDAD ACM"
+  speed-info: "{RESET}{AQUA}[SOLO SIRVE PARA TÍ]{LINE}{GREEN}- x2 velocidad por {TIME} segundos{LINE}{ORANGE}- x1 velocidad minera por 5 segundos{LINE}{PINK}- x1 regeneración por 3 segundos"
+  # Uso importante de {PRICE} para ver el precio de los items
+  # Uso importante de {TIME} para ver el tiempo en cooldown
+  health: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  health-name: "{RESET}{BOLD}{ORANGE}SALUD ACM"
+  health-info: "{RESET}{AQUA}[SOLO SIRVE PARA TÍ]{LINE}{GREEN}- x2 regeneración por {TIME} segundos{LINE}{ORANGE}- x2 resistencia por 8 segundos{LINE}{PINK}- x2 lentitud por 10 segundos"
+  # Uso importante de {PRICE} para ver el precio de los items
+  # Uso importante de {TIME} para ver el tiempo de cooldown
+  soup: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  soup-name: "{RESET}{BOLD}{BLUE}SOPA ACM"
+  soup-info: "{RESET}{AQUA}[SOLO PARA ENEMIGOS]{LINE}{GREEN}- x1 wither por {TIME} segundos{LINE}{ORANGE}- x1 ceguera por 10 segundos{LINE}{PINK}- x1 salto por 3 segundos"
+  
+  # Uso importante de {PRICE} para ver el precio de los items
+  helmet: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  helmet-name: "{RESET}{BOLD}{AQUA}CASCO MÁGICO"
+  helmet-info: "{RESET}{AQUA}- x1 visión nocturna{LINE}{GREEN}- x1 hambre para el enemigo por 10 segundos"
+
+  chestplate: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  chestplate-name: "{RESET}{BOLD}{AQUA}PECHERA MÁGICA"
+  chestplate-info: "{RESET}{AQUA}- x2 velocidad minera{LINE}{GREEN}- x1 nauseas para el enemigo por 3 segundos{LINE}{PINK}- x1 wither para el enemigo por 5 segundos"
+
+  leggings: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  leggings-name: "{RESET}{BOLD}{AQUA}PANTALON MÁGICO"
+  leggings-info: "{RESET}{AQUA}- x2 salto {LINE}{GREEN}- x1 resistencia al fuego{LINE}{PINK}- x1 regeneración para el enemigo por 8 segundos"
+
+  boots: "{RESET}{ORANGE} x1 cuesta {AQUA}${PRICE}"
+  boots-name: "{RESET}{BOLD}{AQUA}BOTA MÁGICA"
+  boots-info: "{RESET}{AQUA}- x1 velocidad{LINE}{GREEN}- sin daño de caída{LINE}{PINK}- x1 ceguera para el enemigo por 10 segundos"
+
+Messages:
+  no-permission: "{RED}¡No tienes permisos para esto!"
+  # Uso importante de {PRICE} para ver el precio de los items
+  successful-purchase: "{GREEN}Tu compra fue éxito con un precio de {AQUA}${PRICE}"
+  no-money: "{RED}¡No tienes suficiente dinero para comprar este item!"
+  inventory-full: "{RED}¡Tu invenrario está lleno!"
+  # Uso importante de {TIME} para ver el tiempo de cooldown
+  in-cooldown: "{RED}Espera {TIME} segundos para usarlo otra vez" 
+  coming-soon: "{RED}PRONTO..."
