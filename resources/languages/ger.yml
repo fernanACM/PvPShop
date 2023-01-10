@@ -62,97 +62,97 @@ Menu-category:
 
 # Important to use {PRICE} to see the price of the item
 ArmorShop-info:
-  leather_helmet: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  leather_chestplate: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  leather_leggings: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  leather_boots: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  leather_helmet: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  leather_chestplate: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  leather_leggings: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  leather_boots: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
-  golden_helmet: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  golden_chestplate: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  golden_leggings: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  golden_boots: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  golden_helmet: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  golden_chestplate: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  golden_leggings: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  golden_boots: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
-  chainmail_helmet: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  chainmail_chestplate: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  chainmail_leggings: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  chainmail_boots: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  chainmail_helmet: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  chainmail_chestplate: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  chainmail_leggings: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  chainmail_boots: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
-  iron_helmet: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  iron_chestplate: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  iron_leggings: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  iron_boots: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  iron_helmet: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  iron_chestplate: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  iron_leggings: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  iron_boots: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
-  diamond_helmet: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  diamond_chestplate: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  diamond_leggings: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  diamond_boots: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  diamond_helmet: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  diamond_chestplate: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  diamond_leggings: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  diamond_boots: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
 # Important to use {PRICE} to see the price of the item
 ToolsShop-info:
-  wood_sword: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  wood_pickaxe: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  wood_axe: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  wood_sword: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  wood_pickaxe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  wood_axe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
-  stone_sword: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  stone_pickaxe: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  stone_axe: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  stone_sword: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  stone_pickaxe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  stone_axe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
-  golden_sword: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  golden_pickaxe: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  golden_axe: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  golden_sword: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  golden_pickaxe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  golden_axe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
-  iron_sword: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  iron_pickaxe: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  iron_axe: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  iron_sword: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  iron_pickaxe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  iron_axe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
-  diamond_sword: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  dimaond_pickaxe: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
-  dimaond_axe: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  diamond_sword: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  dimaond_pickaxe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
+  dimaond_axe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
 # Important to use {COUNT} to see the number of items to receive
 # Important to use {PRICE} to see the price of the item
 FoodShop-info:
-  chicken: "{RESET}{ORANGE} x{COUNT} Kosten {AQUA}${PRICE}"
-  mutton: "{RESET}{ORANGE} x{COUNT} Kosten {AQUA}${PRICE}"
-  porkchop: "{RESET}{ORANGE} x{COUNT} Kosten {AQUA}${PRICE}"
-  rabbit: "{RESET}{ORANGE} x{COUNT} Kosten {AQUA}${PRICE}"
-  salmon: "{RESET}{ORANGE} x{COUNT} Kosten {AQUA}${PRICE}"
-  golden_apple: "{RESET}{ORANGE} x{COUNT} Kosten {AQUA}${PRICE}"
-  enchanted_golden_apple: "{RESET}{ORANGE} x{COUNT} Kosten {AQUA}${PRICE}"
+  chicken: "{RESET}{ORANGE} x{COUNT} Preis: {AQUA}${PRICE}"
+  mutton: "{RESET}{ORANGE} x{COUNT} Preis: {AQUA}${PRICE}"
+  porkchop: "{RESET}{ORANGE} x{COUNT} Preis: {AQUA}${PRICE}"
+  rabbit: "{RESET}{ORANGE} x{COUNT} Preis: {AQUA}${PRICE}"
+  salmon: "{RESET}{ORANGE} x{COUNT} Preis: {AQUA}${PRICE}"
+  golden_apple: "{RESET}{ORANGE} x{COUNT} Preis: {AQUA}${PRICE}"
+  enchanted_golden_apple: "{RESET}{ORANGE} x{COUNT} Preis: {AQUA}${PRICE}"
 
 ExtrasShop-info:
   # Important to use {PRICE} to see the price of the item
-  totem: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  totem: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   # Important to use {PRICE} to see the price of the item
   # Important to use {TIME} to see the cooldown time
-  speed: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  speed: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   speed-name: "{RESET}{BOLD}{RED}SPEED ACM"
-  speed-info: "{RESET}{AQUA}[>>]{LINE}{GREEN}- x2 Schnelligkeit für {TIME} Sekunden{LINE}{ORANGE}- x1 Schneller Abbauen für 5 Sekunden{LINE}{PINK}- x1 Regeneration für 3 Sekunden"
+  speed-info: "{RESET}{AQUA}[Nur für dich!]{LINE}{GREEN}- x2 Schnelligkeit für {TIME} Sekunden{LINE}{ORANGE}- x1 Schneller Abbauen für 5 Sekunden{LINE}{PINK}- x1 Regeneration für 3 Sekunden"
   # Important to use {PRICE} to see the price of the item
   # Important to use {TIME} to see the cooldown time
-  health: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  health: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   health-name: "{RESET}{BOLD}{ORANGE}HEALTH ACM"
   health-info: "{RESET}{AQUA}[Nur für dich!]{LINE}{GREEN}- x2 Regeneration für {TIME} Sekunden{LINE}{ORANGE}- x2 Widerstand für 8 Sekunden{LINE}{PINK}- x2 Langsamkeit für 10 Sekunden"
   # Important to use {PRICE} to see the price of the item
   # Important to use {TIME} to see the cooldown time
-  soup: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  soup: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   soup-name: "{RESET}{BOLD}{BLUE}SOUP ACM"
   soup-info: "{RESET}{AQUA}[Nur für den Gegner]{LINE}{GREEN}- x1 Wither für {TIME} Sekunden{LINE}{ORANGE}- x1 Blindheit für 10 Sekunden{LINE}{PINK}- x1 Höher Springen für 3 Sekunden"
   
   # Important to use {PRICE} to see the price of the item
-  helmet: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  helmet: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   helmet-name: "{RESET}{BOLD}{AQUA}Magischer Helm"
   helmet-info: "{RESET}{AQUA}- x1 Nachtsicht{LINE}{GREEN}- x1 Hunger für den Gegner für 10 Sekunden"
 
-  chestplate: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  chestplate: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   chestplate-name: "{RESET}{BOLD}{AQUA}Magische Brustplatte"
   chestplate-info: "{RESET}{AQUA}- x2 Schneller Abbauen{LINE}{GREEN}- x1 Übelkeit für den Gegner für 3 Sekunden{LINE}{PINK}- x1 Wither für den Gegner für 5 Sekunden"
 
-  leggings: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  leggings: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   leggings-name: "{RESET}{BOLD}{AQUA}Magische Hose"
   leggings-info: "{RESET}{AQUA}- x2 Höher Springen{LINE}{GREEN}- x1 Feuerwiderstand {LINE}{PINK}- x1 Regeneration für den Gegner für 8 Sekunden"
 
-  boots: "{RESET}{ORANGE} x1 Kostet {AQUA}${PRICE}"
+  boots: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   boots-name: "{RESET}{BOLD}{AQUA}Magische Schuhe"
   boots-info: "{RESET}{AQUA}- x1 Schnelligkeit {LINE}{GREEN}- Kein Schaden wenn du Runterfällst{LINE}{PINK}- x1 Blindheit für den Gegner für 10 Sekunden"
 
