@@ -1,0 +1,38 @@
+name: PvPShop
+main: fernanACM\PvPShop\Loader
+version: 1.0.0
+api: 4.0.0
+author: fernanACM
+website: https://github.com/fernanACM
+description: Basic shop to buy items for PvP. For PocketMine-MP 4.0 server only
+
+permissions:
+  pvpshop.command.acm:
+    default: true
+
+  pvpshop.category.armor:
+    default: true
+  pvpshop.category.food:
+    default: true
+  pvpshop.category.extras:
+    default: true
+  pvpshop.category.tools:
+    default: true
+
+  pvpshop.items.totem:
+    default: op
+  pvpshop.items.speed:
+    default: op
+  pvpshop.items.health:
+    default: op
+  pvpshop.items.soup:
+    default: op
+
+  pvpshop.armor.helmet:
+    default: op
+  pvpshop.armor.chestplate:
+    default: op
+  pvpshop.armor.leggings:
+    default: op
+  pvpshop.armor.boots:
+    default: op
