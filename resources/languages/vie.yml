@@ -3,17 +3,17 @@
 #  | |_) | \ \ / / | |_) | \___ \  | '_ \   / _ \  | '_ \ 
 #  |  __/   \ V /  |  __/   ___) | | | | | | (_) | | |_) |
 #  |_|       \_/   |_|     |____/  |_| |_|  \___/  | .__/ 
-#                by fernanACM                      |_|    
+#                bởi fernanACM                     |_|    
 
-# Basic shop to buy pvp items. We have special items in this 
-# store to make it much more special.
+# Cửa hàng cơ bản để mua các vật phẩm pvp. Chúng tôi có các mặt
+# hàng đặc biệt trong cửa hàng này để làm cho nó đặc biệt hơn nhiều.
 
-# Language version. DO NOT TOUCH
+# Phiên bản ngôn ngữ. ĐỪNG CHẠM VÀO
 language-version: "1.0.0"
-# ======(KEYS)======
+# ======(KHÓA)======
 
 # "{LINE}" => "\n",
-# - COLORS
+# - MÀU SẮC
 #  & => §,
 # "{BLACK}" => TextFormat::BLACK,
 # "{DARK_BLUE}" => TextFormat::DARK_BLUE,
@@ -35,133 +35,133 @@ language-version: "1.0.0"
 # "{BOLD}" => TextFormat::BOLD,
 # "{RESET}" => TextFormat::RESET
 
-MenuCategory-name: "{BOLD}{BLUE}PVP SHOP"
-ArmorShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}ARMOR"
-ToolsShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}TOOLS"
-FoodShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}FOOD"
-ExtrasShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}EXTRAS"
+MenuCategory-name: "{BOLD}{BLUE}CỬA HÀNG PVP"
+ArmorShop-name: "{BOLD}{BLUE}CỬA HÀNG PVP {GREEN}- {PURPLE}GIÁP"
+ToolsShop-name: "{BOLD}{BLUE}CỬA HÀNG PVP {GREEN}- {PURPLE}CÔNG CỤ"
+FoodShop-name: "{BOLD}{BLUE}CỬA HÀNG PVP {GREEN}- {PURPLE}THỨC ĂN"
+ExtrasShop-name: "{BOLD}{BLUE}CỬA HÀNG PVP {GREEN}- {PURPLE}BỔ SUNG"
 
-# Menu Category
+# Danh mục menu
 Menu-category:
-  armor-name: "{RESET}{BOLD}{BLUE}ARMOR SHOP"
-  armor-info: "{YELLOW}Here you can buy a wide variety of types of armor at the best price"
+  armor-name: "{RESET}{BOLD}{BLUE}CỬA HÀNG GIÁP"
+  armor-info: "{YELLOW}Tại đây bạn có thể mua nhiều loại giáp với mức giá tốt nhất"
 
-  tools-name: "{RESET}{BOLD}{GREEN}TOOLS SHOP"
-  tools-info: "{YELLOW}Here you can buy the necessary tools for combat"
+  tools-name: "{RESET}{BOLD}{GREEN}CỬA HÀNG CÔNG CỤ"
+  tools-info: "{YELLOW}Tại đây bạn có thể mua các công cụ cần thiết để chiến đấu"
 
-  food-name: "{RESET}{BOLD}{ORANGE}FOOD SHOP"
-  food-info: "{YELLOW}Here you can find the best snacks for you"
+  food-name: "{RESET}{BOLD}{ORANGE}CỬA HÀNG THỨC ĂN"
+  food-info: "{YELLOW}Tại đây bạn có thể tìm thấy những món ăn vặt tốt nhất cho bạn"
 
-  extras-name: "{RESET}{BOLD}{PINK}EXTRA SHOP"
-  extras-info: "{YELLOW}Here buy necessary and rare items for use in combat"
+  extras-name: "{RESET}{BOLD}{PINK}CỬA HÀNG BỔ SUNG"
+  extras-info: "{YELLOW}Tại đây bạn có thể mua các vật phẩm cần thiết và quý hiếm để sử dụng trong chiến đấu"
 
-  coming-soon-name: "{RESET}{BOLD}{RED}COMING SOON AVAILABLE"
+  coming-soon-name: "{RESET}{BOLD}{RED}SẮP RA MẮT"
 
-  close: "{RESET}{BOLD}{DARK_RED}CLOSE MENU"
-  return: "{RESET}{BOLD}{DARK_GREEN}RETURN TO MENU"
+  close: "{RESET}{BOLD}{DARK_RED}ĐÓNG MENU"
+  return: "{RESET}{BOLD}{DARK_GREEN}TRỞ LẠI MENU"
 
-# Important to use {PRICE} to see the price of the item
+# Sử dụng {PRICE} để hiển thị giá của vật phẩm
 ArmorShop-info:
-  leather_helmet: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  leather_chestplate: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  leather_leggings: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  leather_boots: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
+  leather_helmet: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  leather_chestplate: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  leather_leggings: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  leather_boots: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
 
-  golden_helmet: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  golden_chestplate: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  golden_leggings: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  golden_boots: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
+  golden_helmet: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  golden_chestplate: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  golden_leggings: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  golden_boots: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
 
-  chainmail_helmet: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  chainmail_chestplate: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  chainmail_leggings: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  chainmail_boots: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
+  chainmail_helmet: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  chainmail_chestplate: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  chainmail_leggings: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  chainmail_boots: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
 
-  iron_helmet: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  iron_chestplate: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  iron_leggings: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  iron_boots: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
+  iron_helmet: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  iron_chestplate: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  iron_leggings: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  iron_boots: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
 
-  diamond_helmet: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  diamond_chestplate: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  diamond_leggings: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  diamond_boots: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
+  diamond_helmet: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  diamond_chestplate: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  diamond_leggings: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  diamond_boots: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
 
-# Important to use {PRICE} to see the price of the item
+# Sử dụng {PRICE} để hiển thị giá của vật phẩm
 ToolsShop-info:
-  wood_sword: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  wood_pickaxe: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  wood_axe: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
+  wood_sword: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  wood_pickaxe: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  wood_axe: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
 
-  stone_sword: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  stone_pickaxe: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  stone_axe: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
+  stone_sword: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  stone_pickaxe: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  stone_axe: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
 
-  golden_sword: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  golden_pickaxe: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  golden_axe: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
+  golden_sword: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  golden_pickaxe: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  golden_axe: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
 
-  iron_sword: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  iron_pickaxe: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  iron_axe: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
+  iron_sword: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  iron_pickaxe: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  iron_axe: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
 
-  diamond_sword: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  dimaond_pickaxe: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  dimaond_axe: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
+  diamond_sword: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  dimaond_pickaxe: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  dimaond_axe: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
 
-# Important to use {COUNT} to see the number of items to receive
-# Important to use {PRICE} to see the price of the item
+# Sử dụng {COUNT} để hiển thị số lượng vật phẩm sẽ nhận
+# Sử dụng {PRICE} để hiển thị giá của vật phẩm
 FoodShop-info:
-  chicken: "{RESET}{ORANGE} x{COUNT} cost {AQUA}${PRICE}"
-  mutton: "{RESET}{ORANGE} x{COUNT} cost {AQUA}${PRICE}"
-  porkchop: "{RESET}{ORANGE} x{COUNT} cost {AQUA}${PRICE}"
-  rabbit: "{RESET}{ORANGE} x{COUNT} cost {AQUA}${PRICE}"
-  salmon: "{RESET}{ORANGE} x{COUNT} cost {AQUA}${PRICE}"
-  golden_apple: "{RESET}{ORANGE} x{COUNT} cost {AQUA}${PRICE}"
-  enchanted_golden_apple: "{RESET}{ORANGE} x{COUNT} cost {AQUA}${PRICE}"
+  chicken: "{RESET}{ORANGE} x{COUNT} giá {AQUA}${PRICE}"
+  mutton: "{RESET}{ORANGE} x{COUNT} giá {AQUA}${PRICE}"
+  porkchop: "{RESET}{ORANGE} x{COUNT} giá {AQUA}${PRICE}"
+  rabbit: "{RESET}{ORANGE} x{COUNT} giá {AQUA}${PRICE}"
+  salmon: "{RESET}{ORANGE} x{COUNT} giá {AQUA}${PRICE}"
+  golden_apple: "{RESET}{ORANGE} x{COUNT} giá {AQUA}${PRICE}"
+  enchanted_golden_apple: "{RESET}{ORANGE} x{COUNT} giá {AQUA}${PRICE}"
 
 ExtrasShop-info:
-  # Important to use {PRICE} to see the price of the item
-  totem: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  # Important to use {PRICE} to see the price of the item
-  # Important to use {TIME} to see the cooldown time
-  speed: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  speed-name: "{RESET}{BOLD}{RED}SPEED ACM"
-  speed-info: "{RESET}{AQUA}[ONLY SERVES FOR YOU]{LINE}{GREEN}- x2 speed for {TIME} seconds{LINE}{ORANGE}- x1 mining speed for 5 seconds{LINE}{PINK}- x1 regeneration for 3 seconds"
-  # Important to use {PRICE} to see the price of the item
-  # Important to use {TIME} to see the cooldown time
-  health: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  health-name: "{RESET}{BOLD}{ORANGE}HEALTH ACM"
-  health-info: "{RESET}{AQUA}[ONLY SERVES FOR YOU]{LINE}{GREEN}- x2 regeneration for {TIME} seconds{LINE}{ORANGE}- x2 resistance for 8 secconds{LINE}{PINK}- x2 slowness for 10 seconds"
-  # Important to use {PRICE} to see the price of the item
-  # Important to use {TIME} to see the cooldown time
-  soup: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  soup-name: "{RESET}{BOLD}{BLUE}SOUP ACM"
-  soup-info: "{RESET}{AQUA}[ONLY FOR THE ENEMY]{LINE}{GREEN}- x1 wither for {TIME} seconds{LINE}{ORANGE}- x1 blindness for 10 seconds{LINE}{PINK}- x1 jump for 3 seconds"
-  
-  # Important to use {PRICE} to see the price of the item
-  helmet: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  helmet-name: "{RESET}{BOLD}{AQUA}MAGIC HELMET"
-  helmet-info: "{RESET}{AQUA}- x1 night vision{LINE}{GREEN}- x1 hunger for the enemy for 10 seconds"
+  # Sử dụng {PRICE} để hiển thị giá của vật phẩm
+  totem: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  # Sử dụng {PRICE} để hiển thị giá của vật phẩm
+  # Sử dụng {TIME} để hiển thị thời gian đếm ngược
+  speed: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  speed-name: "{RESET}{BOLD}{RED}TỐC ĐỘ ACM"
+  speed-info: "{RESET}{AQUA}[CHỈ PHỤC VỤ CHO BẠN]{LINE}{GREEN}- x2 tốc dộ trong {TIME} giây{LINE}{ORANGE}- x1 tốc độ đào trong 5 giây{LINE}{PINK}- x1 hồi phục trong 3 giây"
+  # Sử dụng {PRICE} để hiển thị giá của vật phẩm
+  # Sử dụng {TIME} để hiển thị thời gian đếm ngược
+  health: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  health-name: "{RESET}{BOLD}{ORANGE}TĂNG SINH LỰC ACM"
+  health-info: "{RESET}{AQUA}[CHỈ PHỤC VỤ CHO BẠN]{LINE}{GREEN}- x2 hồi phục trong {TIME} giây{LINE}{ORANGE}- x2 kháng lửa 8 giây{LINE}{PINK}- x2 sự chậm chạp trong 10 giây"
+  # Sử dụng {PRICE} để hiển thị giá của vật phẩm
+  # Sử dụng {TIME} để hiển thị thời gian đếm ngược
+  soup: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  soup-name: "{RESET}{BOLD}{BLUE}SÚP ACM"
+  soup-info: "{RESET}{AQUA}[CHỈ DÀNH CHO KẺ THÙ]{LINE}{GREEN}- x1 khô héo trong {TIME} giây{LINE}{ORANGE}- x1 sự mù lòa trong 10 giây{LINE}{PINK}- x1 tăng khả năng nhảy trong 3 giây"
 
-  chestplate: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  chestplate-name: "{RESET}{BOLD}{AQUA}MAGIC CHESTPLATE"
-  chestplate-info: "{RESET}{AQUA}- x2 mining speed{LINE}{GREEN}- x1 nausea for the enemy for 3 seconds{LINE}{PINK}- x1 wither for the enemy for 5 seconds"
+  # Sử dụng {PRICE} để hiển thị giá của vật phẩm
+  helmet: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  helmet-name: "{RESET}{BOLD}{AQUA}MŨ MA THUẬT"
+  helmet-info: "{RESET}{AQUA}- x1 nhìn trong bóng tối{LINE}{GREEN}- x1 đói cho kẻ thù trong 10 giây"
 
-  leggings: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  leggings-name: "{RESET}{BOLD}{AQUA}MAGIC LEGGINGS"
-  leggings-info: "{RESET}{AQUA}- x2 jump{LINE}{GREEN}- x1 fire resistance{LINE}{PINK}- x1 regeneration for the enemy for 8 seconds"
+  chestplate: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  chestplate-name: "{RESET}{BOLD}{AQUA}ÁO MA THUẬT"
+  chestplate-info: "{RESET}{AQUA}- x2 tốc độ đào{LINE}{GREEN}- x1 buồn nôn cho kẻ thù trong 3 giây{LINE}{PINK}- x1 khô héo cho kẻ thù trong 5 giây"
 
-  boots: "{RESET}{ORANGE} x1 cost {AQUA}${PRICE}"
-  boots-name: "{RESET}{BOLD}{AQUA}MAGIC BOOTS"
-  boots-info: "{RESET}{AQUA}- x1 speed{LINE}{GREEN}- take no damage when falling{LINE}{PINK}- x1 blindness for the enemy for 10 seconds"
+  leggings: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  leggings-name: "{RESET}{BOLD}{AQUA}QUẦN MA THUẬT"
+  leggings-info: "{RESET}{AQUA}- x2 tăng khả năng nhảy{LINE}{GREEN}- x1 kháng lửa{LINE}{PINK}- x1 hồi phục cho kẻ thù trong 8 giây"
+
+  boots: "{RESET}{ORANGE} x1 giá {AQUA}${PRICE}"
+  boots-name: "{RESET}{BOLD}{AQUA}ỦNG MA THUẬT"
+  boots-info: "{RESET}{AQUA}- x1 tốc độ{LINE}{GREEN}- không bị thương khi ngã{LINE}{PINK}- x1 sự mù lòa cho kẻ thù trong 10 giây"
 
 Messages:
-  no-permission: "{RED}You don't have permissions for this!"
-  # Important to use {PRICE} to see the price of the item
-  successful-purchase: "{GREEN}Your purchase was successful with a price of {AQUA}${PRICE}"
-  no-money: "{RED}You do not have enough money to buy this item!"
-  inventory-full: "{RED}Your inventory is too full!"
-  # Important to use {TIME} to see cooldown time
-  in-cooldown: "{RED}You are on cooldown for {TIME} seconds" 
-  coming-soon: "{RED}Coming soon..."
+  no-permission: "{RED}Bạn không có quyền cho việc này!"
+  # Sử dụng {PRICE} để hiển thị giá của vật phẩm
+  successful-purchase: "{GREEN}Đã mua thành công vật phẩm với giá {AQUA}${PRICE}"
+  no-money: "{RED}Bạn không có đủ tiền để mua vật phẩm này!"
+  inventory-full: "{RED}Túi đồ của bạn đã quá đầy!"
+  # Sử dụng {TIME} để hiển thị thời gian đếm ngược
+  in-cooldown: "{RED}Bạn đang trong thời gian hồi chiêu còn {TIME} giây"
+  coming-soon: "{RED}Sắp ra mắt..."

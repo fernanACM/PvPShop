@@ -16,6 +16,7 @@ config-version: "1.0.0"
 # "spa", // Spanish
 # "ger", // German
 # "frc", // French
+# "indo", // Indonesian
 # "portg", // Portuguese
 # "vie" // Vietnamese
 language: eng
@@ -26,7 +27,7 @@ Prefix: "§l[§aPvPShop§f]§8»§r "
 # ======(ECONOMY PROVIDER)======
 # Usa economyapi, bedrockeconomy, xp
 Economy: 
-  provider: economyapi
+  provider: bedrockeconomy
 
 # Price of items in the store.
 Price:
