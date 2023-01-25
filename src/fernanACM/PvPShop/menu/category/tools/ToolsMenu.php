@@ -77,7 +77,7 @@ class ToolsMenu{
 
         // GOLD
         $inv->setItem(28, VanillaItems::GOLDEN_SWORD()->setCustomName(str_replace(["{PRICE}"], [$golden_sword], Loader::getMessage($player, "ToolsShop-info.golden_sword"))));
-        $inv->setItem(29, VanillaItems::GOLDEN_PICKAXE()->setCustomName(str_replace(["{PRICE}"], [$golden_pickaxe], Loader::getMessage($player, "ToolsShop-info.golen_pickaxe"))));
+        $inv->setItem(29, VanillaItems::GOLDEN_PICKAXE()->setCustomName(str_replace(["{PRICE}"], [$golden_pickaxe], Loader::getMessage($player, "ToolsShop-info.golden_pickaxe"))));
         $inv->setItem(30, VanillaItems::GOLDEN_AXE()->setCustomName(str_replace(["{PRICE}"], [$golden_axe], Loader::getMessage($player, "ToolsShop-info.golden_axe"))));
 
         // IRON
