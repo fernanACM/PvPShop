@@ -41,7 +41,7 @@ ToolsShop-name: "{BOLD}{BLUE}LADEN SHOP {GREEN}- {PURPLE}Werkzeuge"
 FoodShop-name: "{BOLD}{BLUE}LADEN SHOP {GREEN}- {PURPLE}Essen"
 ExtrasShop-name: "{BOLD}{BLUE}LADEN SHOP {GREEN}- {PURPLE}Extras"
 
-# Menu Category
+# Kategoriemenü
 Menu-category:
   armor-name: "{RESET}{BOLD}{BLUE}Rüstungs Shop"
   armor-info: "{YELLOW}Hier kannst du Rüstung kaufen"
@@ -60,7 +60,7 @@ Menu-category:
   close: "{RESET}{BOLD}{DARK_RED}Menü Schließen"
   return: "{RESET}{BOLD}{DARK_GREEN}Zurück zum Menü"
 
-# Important to use {PRICE} to see the price of the item
+# Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
 ArmorShop-info:
   leather_helmet: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   leather_chestplate: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
@@ -87,7 +87,7 @@ ArmorShop-info:
   diamond_leggings: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   diamond_boots: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
-# Important to use {PRICE} to see the price of the item
+# Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
 ToolsShop-info:
   wood_sword: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   wood_pickaxe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
@@ -109,8 +109,8 @@ ToolsShop-info:
   dimaond_pickaxe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   dimaond_axe: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
 
-# Important to use {COUNT} to see the number of items to receive
-# Important to use {PRICE} to see the price of the item
+# Es ist wichtig, {COUNT} zu verwenden, um die Anzahl der zu erhaltenden Artikel anzuzeigen
+# Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
 FoodShop-info:
   chicken: "{RESET}{ORANGE} x{COUNT} Preis: {AQUA}${PRICE}"
   mutton: "{RESET}{ORANGE} x{COUNT} Preis: {AQUA}${PRICE}"
@@ -121,25 +121,25 @@ FoodShop-info:
   enchanted_golden_apple: "{RESET}{ORANGE} x{COUNT} Preis: {AQUA}${PRICE}"
 
 ExtrasShop-info:
-  # Important to use {PRICE} to see the price of the item
+  # Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
   totem: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
-  # Important to use {PRICE} to see the price of the item
-  # Important to use {TIME} to see the cooldown time
+  # Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
+  # Es ist wichtig, {TIME} zu verwenden, um die Abklingzeit anzuzeigen
   speed: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   speed-name: "{RESET}{BOLD}{RED}SPEED ACM"
   speed-info: "{RESET}{AQUA}[Nur für dich!]{LINE}{GREEN}- x2 Schnelligkeit für {TIME} Sekunden{LINE}{ORANGE}- x1 Schneller Abbauen für 5 Sekunden{LINE}{PINK}- x1 Regeneration für 3 Sekunden"
-  # Important to use {PRICE} to see the price of the item
-  # Important to use {TIME} to see the cooldown time
+  # Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
+  # Es ist wichtig, {TIME} zu verwenden, um die Abklingzeit anzuzeigen
   health: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   health-name: "{RESET}{BOLD}{ORANGE}HEALTH ACM"
   health-info: "{RESET}{AQUA}[Nur für dich!]{LINE}{GREEN}- x2 Regeneration für {TIME} Sekunden{LINE}{ORANGE}- x2 Widerstand für 8 Sekunden{LINE}{PINK}- x2 Langsamkeit für 10 Sekunden"
-  # Important to use {PRICE} to see the price of the item
-  # Important to use {TIME} to see the cooldown time
+  # Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
+  # Es ist wichtig, {TIME} zu verwenden, um die Abklingzeit anzuzeigen
   soup: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   soup-name: "{RESET}{BOLD}{BLUE}SOUP ACM"
   soup-info: "{RESET}{AQUA}[Nur für den Gegner]{LINE}{GREEN}- x1 Wither für {TIME} Sekunden{LINE}{ORANGE}- x1 Blindheit für 10 Sekunden{LINE}{PINK}- x1 Höher Springen für 3 Sekunden"
   
-  # Important to use {PRICE} to see the price of the item
+  # Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
   helmet: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
   helmet-name: "{RESET}{BOLD}{AQUA}Magischer Helm"
   helmet-info: "{RESET}{AQUA}- x1 Nachtsicht{LINE}{GREEN}- x1 Hunger für den Gegner für 10 Sekunden"
@@ -158,10 +158,10 @@ ExtrasShop-info:
 
 Messages:
   no-permission: "{RED}Dafür hast du keine Berechtigungen."
-  # Important to use {PRICE} to see the price of the item
+  # Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
   successful-purchase: "{GREEN}Dein Kauf war erfolgreich! Du hast {AQUA}${PRICE}{GREEN} bezahlt."
   no-money: "{RED}Du hast nicht genügend Geld um das Item kaufen zu können."
   inventory-full: "{RED}Dein Inventar ist voll!"
-  # Important to use {TIME} to see cooldown time
+  # Es ist wichtig, {TIME} zu verwenden, um die Abklingzeit anzuzeigen
   in-cooldown: "{RED}Bitte warte {TIME} Sekunden." 
   coming-soon: "{RED}Kommt bald!"
