@@ -1,0 +1,167 @@
+#   ____            ____    ____    _                     
+#  |  _ \  __   __ |  _ \  / ___|  | |__     ___    _ __  
+#  | |_) | \ \ / / | |_) | \___ \  | '_ \   / _ \  | '_ \ 
+#  |  __/   \ V /  |  __/   ___) | | | | | | (_) | | |_) |
+#  |_|       \_/   |_|     |____/  |_| |_|  \___/  | .__/ 
+#                by fernanACM                      |_|    
+
+# Toko dasar untuk membeli item pvp. Kami memiliki item khusus di
+#Toko ini
+
+# Versi bahasa. JANGAN SENTUH
+language-version: "1.0.0"
+# ======(CLAVES)======
+
+# "{LINE}" => "\n",
+# - COLORES
+#  & => §,
+# "{BLACK}" => TextFormat::BLACK,
+# "{DARK_BLUE}" => TextFormat::DARK_BLUE,
+# "{DARK_GREEN}" => TextFormat::DARK_GREEN,
+# "{CYAN}" => TextFormat::DARK_AQUA,
+# "{DARK_RED}" => TextFormat::DARK_RED,
+# "{PURPLE}" => TextFormat::DARK_PURPLE,
+# "{GOLD}" => TextFormat::GOLD,
+# "{GRAY}" => TextFormat::GRAY,
+# "{DARK_GRAY}" => TextFormat::DARK_GRAY,
+# "{BLUE}" => TextFormat::BLUE,
+# "{GREEN}" => TextFormat::GREEN,
+# "{AQUA}" => TextFormat::AQUA,
+# "{RED}" => TextFormat::RED,
+# "{PINK}" => TextFormat::LIGHT_PURPLE,
+# "{YELLOW}" => TextFormat::YELLOW,
+# "{WHITE}" => TextFormat::WHITE,
+# "{ORANGE}" => "§6"
+# "{BOLD}" => TextFormat::BOLD,
+# "{RESET}" => TextFormat::RESET
+
+MenuCategory-name: "{BOLD}{BLUE}TOKO PVP"
+ArmorShop-name: "{BOLD}{BLUE}TOKO PVP {GREEN}- {PURPLE}BAJU ZIRAH"
+ToolsShop-name: "{BOLD}{BLUE}TOKO PVP {GREEN}- {PURPLE}PERALATAN"
+FoodShop-name: "{BOLD}{BLUE}TOKO PVP {GREEN}- {PURPLE}MAKANAN"
+ExtrasShop-name: "{BOLD}{BLUE}TOKO PVP {GREEN}- {PURPLE}FITUR TAMBAHAN"
+
+# Menu kategori
+Menu-category:
+  armor-name: "{RESET}{BOLD}{BLUE}TOKO ARMOR"
+  armor-info: "{YELLOW}Di sini kamu bisa membeli berbagai macam jenis armor dengan harga terbaik"
+
+  tools-name: "{RESET}{BOLD}{GREEN}TOKO PERANGKAT KERAS"
+  tools-info: "{YELLOW}Di sini Anda dapat membeli alat yang diperlukan untuk pertempuran."
+
+  food-name: "{RESET}{BOLD}{ORANGE}TOKO KELONTONG"
+  food-info: "{YELLOW}Di sini Anda dapat menemukan makanan ringan terbaik untuk Anda"
+
+  extras-name: "{RESET}{BOLD}{PINK}TOKO EKSTRA"
+  extras-info: "{YELLOW}Di sini Anda membeli barang-barang yang diperlukan dan langka untuk digunakan dalam pertempuran."
+
+  coming-soon-name: "{RESET}{BOLD}{RED}SEGERA HADIR"
+
+  close: "{RESET}{BOLD}{DARK_RED}TUTUP MENU"
+  return: "{RESET}{BOLD}{DARK_GREEN}KEMBALI KE MENU"
+
+# Penggunaan penting {PRICE} untuk melihat harga item
+ArmorShop-info:
+  leather_helmet: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  leather_chestplate: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  leather_leggings: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  leather_boots: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+
+  golden_helmet: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  golden_chestplate: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  golden_leggings: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  golden_boots: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+
+  chainmail_helmet: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  chainmail_chestplate: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  chainmail_leggings: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  chainmail_boots: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+
+  iron_helmet: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  iron_chestplate: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  iron_leggings: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  iron_boots: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+
+  diamond_helmet: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  diamond_chestplate: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  diamond_leggings: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  diamond_boots: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+
+# Penggunaan penting {PRICE} untuk melihat harga item
+ToolsShop-info:
+  wood_sword: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  wood_pickaxe: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  wood_axe: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+
+  stone_sword: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  stone_pickaxe: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  stone_axe: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+
+  golden_sword: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  golden_pickaxe: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  golden_axe: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+
+  iron_sword: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  iron_pickaxe: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  iron_axe: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+
+  diamond_sword: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  dimaond_pickaxe: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  dimaond_axe: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+
+# penggunaan penting {COUNT} untuk melihat jumlah yang akan diterima
+# Penggunaan penting {PRICE} untuk melihat harga item
+FoodShop-info:
+  chicken: "{RESET}{ORANGE} x{COUNT} biaya {AQUA}${PRICE}"
+  mutton: "{RESET}{ORANGE} x{COUNT} biaya {AQUA}${PRICE}"
+  porkchop: "{RESET}{ORANGE} x{COUNT} biaya {AQUA}${PRICE}"
+  rabbit: "{RESET}{ORANGE} x{COUNT} biaya {AQUA}${PRICE}"
+  salmon: "{RESET}{ORANGE} x{COUNT} biaya {AQUA}${PRICE}"
+  golden_apple: "{RESET}{ORANGE} x{COUNT} biaya {AQUA}${PRICE}"
+  enchanted_golden_apple: "{RESET}{ORANGE} x{COUNT} biaya {AQUA}${PRICE}"
+
+ExtrasShop-info:
+  # Penggunaan penting {PRICE} untuk melihat harga item
+  totem: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  # Penggunaan penting {PRICE} untuk melihat harga item
+  # Penggunaan penting {TIME} untuk melihat waktu cooldown
+  speed: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  speed-name: "{RESET}{BOLD}{RED}KECEPATAN ACM"
+  speed-info: "{RESET}{AQUA}[SERVES HANYA UNTUK ANDA]{LINE}{GREEN}- kecepatan x2 selama {TIME} detik{LINE}{ORANGE}- kecepatan penambangan x1 selama 5 detik{LINE}{PINK}- regenerasi x1 selama 3 detik"
+  # Penggunaan penting {PRICE} untuk melihat harga item
+  # Uso importante de {TIME} para ver el tiempo en cooldown
+  health: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  health-name: "{RESET}{BOLD}{ORANGE}KESEHATAN ACM"
+  health-info: "{RESET}{AQUA}[KHUSUS ANDA]{LINE}{GREEN}- regenerasi x2 selama {TIME} detik{LINE}{ORANGE}- ketahanan x2 selama 8 detik{LINE}{PINK}- perlambatan x2 selama 10 detik"
+  # Penggunaan penting {PRICE} untuk melihat harga item
+  # Penggunaan penting {TIME} untuk melihat waktu cooldown
+  soup: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  soup-name: "{RESET}{BOLD}{BLUE}SUP ACM"
+  soup-info: "{RESET}{AQUA}[HANYA UNTUK MUSUH]{LINE}{GREEN}- x1 layu selama {TIME} detik{LINE}{ORANGE}- x1 buta selama 10 detik{LINE}{PINK}- x1 melompat selama 3 detik"
+  
+  # Penggunaan penting {PRICE} untuk melihat harga item
+  helmet: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  helmet-name: "{RESET}{BOLD}{AQUA}HELM AJAIB"
+  helmet-info: "{RESET}{AQUA}- x1 night vision{LINE}{GREEN}- x1 kelaparan musuh selama 10 detik"
+
+  chestplate: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  chestplate-name: "{RESET}{BOLD}{AQUA}DADA AJAIB"
+  chestplate-info: "{RESET}{AQUA}- kecepatan penambangan x2{LINE}{GREEN}- x1 melumpuhkan musuh selama 3 detik{LINE}{PINK}- x1 melumpuhkan musuh selama 5 detik"
+
+  leggings: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  leggings-name: "{RESET}{BOLD}{AQUA}CELANA AJAIB"
+  leggings-info: "{RESET}{AQUA}- x2 jump {LINE}{GREEN}- ketahanan api x1{LINE}{PINK}- regenerasi x1 untuk musuh selama 8 detik"
+
+  boots: "{RESET}{ORANGE} x1 biaya {AQUA}${PRICE}"
+  boots-name: "{RESET}{BOLD}{AQUA}BOOT AJAIB"
+  boots-info: "{RESET}{AQUA}- z1 kecepatan {LINE}{GREEN}- tidak ada damage jatuh{LINE}{PINK}- kebutaan x1 untuk musuh selama 10 detik"
+
+Messages:
+  no-permission: "{RED}Anda tidak memiliki izin untuk ini!"
+  # Penggunaan penting {PRICE} untuk melihat harga item
+  successful-purchase: "{GREEN}Pembelian Anda berhasil dengan harga {AQUA}${PRICE}"
+  no-money: "{RED}Anda tidak punya cukup uang untuk membeli item ini!"
+  inventory-full: "{RED}Inventaris Anda penuh!"
+  # Penggunaan penting {TIME} untuk melihat waktu cooldown
+  in-cooldown: "{RED}Tunggu {TIME} detik untuk menggunakannya lagi" 
+  coming-soon: "{RED}LEBIH AWAL..."

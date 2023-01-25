@@ -131,7 +131,7 @@ ExtrasShop-info:
   # Uso importante de {PRICE} para ver el precio de los items
   # Uso importante de {TIME} para ver o tempo de espera
   health: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
-  health-name: "{RESET}{BOLD}{ORANGE}SALUD ACM"
+  health-name: "{RESET}{BOLD}{ORANGE}SAÚDE ACM"
   health-info: "{RESET}{AQUA}[SOMENTE PARA VOCÊ]{LINE}{GREEN}- x2 regeneração por {TIME} segundos{LINE}{ORANGE}- x2 resistência por 8 segundos{LINE}{PINK}- x2 lento por 10 segundos"
   # Uso importante de {PRICE} para ver o preço dos itens
   # Uso importante de {TIME} para ver o tempo de espera

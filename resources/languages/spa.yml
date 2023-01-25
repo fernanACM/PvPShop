@@ -161,7 +161,7 @@ Messages:
   # Uso importante de {PRICE} para ver el precio de los items
   successful-purchase: "{GREEN}Tu compra fue éxito con un precio de {AQUA}${PRICE}"
   no-money: "{RED}¡No tienes suficiente dinero para comprar este item!"
-  inventory-full: "{RED}¡Tu invenrario está lleno!"
+  inventory-full: "{RED}¡Tu inventario está lleno!"
   # Uso importante de {TIME} para ver el tiempo de cooldown
   in-cooldown: "{RED}Espera {TIME} segundos para usarlo otra vez" 
   coming-soon: "{RED}PRONTO..."
