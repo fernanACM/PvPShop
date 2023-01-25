@@ -10,6 +10,7 @@
 
 namespace fernanACM\PvPShop\utils;
 
+use fernanACM\PvPShop\Loader;
 use pocketmine\item\enchantment\EnchantmentInstance;
 use pocketmine\item\enchantment\VanillaEnchantments;
 

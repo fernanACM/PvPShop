@@ -56,7 +56,7 @@ class MenuGUI{
     }
 
     /**
-     * @param InvMenuTransaction $transactio
+     * @param InvMenuTransaction $transaction
      * @return InvMenuTransactionResult
      */
     public function getActionMenuGUI(InvMenuTransaction $transaction): InvMenuTransactionResult{

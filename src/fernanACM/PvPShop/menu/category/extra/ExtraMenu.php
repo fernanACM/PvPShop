@@ -118,7 +118,7 @@ class ExtraMenu{
                     if($money >= $speed){
                         Loader::getEconomy()->takeMoney($player, $speed);
                         $player->sendMessage(Loader::Prefix(). str_replace(["{PRICE}"], [$speed], Loader::getMessage($player, "Messages.successful-purchase")));
-                        $player->getInventory()->addItem(ItemUtils::getItemSpeed()->setCount(1));
+                        $player->getInventory()->addItem(ItemUtils::getItemSpeed()->setCount(1)->setCustomName(Loader::getMessage($player, "ExtrasShop-info.speed-name")));
                         PluginUtils::PlaySound($player, "random.levelup", 1, 1.5);
                     }else{
                         $player->removeCurrentWindow();
@@ -147,7 +147,7 @@ class ExtraMenu{
                     if($money >= $health){
                         Loader::getEconomy()->takeMoney($player, $health);
                         $player->sendMessage(Loader::Prefix(). str_replace(["{PRICE}"], [$health], Loader::getMessage($player, "Messages.successful-purchase")));
-                        $player->getInventory()->addItem(ItemUtils::getItemHealth()->setCount(1));
+                        $player->getInventory()->addItem(ItemUtils::getItemHealth()->setCount(1)->setCustomName(Loader::getMessage($player, "ExtrasShop-info.health-name")));
                         PluginUtils::PlaySound($player, "random.levelup", 1, 1.5);
                     }else{
                         $player->removeCurrentWindow();
@@ -176,7 +176,7 @@ class ExtraMenu{
                     if($money >= $soup){
                         Loader::getEconomy()->takeMoney($player, $soup);
                         $player->sendMessage(Loader::Prefix(). str_replace(["{PRICE}"], [$soup], Loader::getMessage($player, "Messages.successful-purchase")));
-                        $player->getInventory()->addItem(ItemUtils::getItemSoup()->setCount(1));
+                        $player->getInventory()->addItem(ItemUtils::getItemSoup()->setCount(1)->setCustomName(Loader::getMessage($player, "ExtrasShop-info.soup-name")));
                         PluginUtils::PlaySound($player, "random.levelup", 1, 1.5);
                     }else{
                         $player->removeCurrentWindow();
@@ -205,7 +205,7 @@ class ExtraMenu{
                     if($money >= $helmet){
                         Loader::getEconomy()->takeMoney($player, $helmet);
                         $player->sendMessage(Loader::Prefix(). str_replace(["{PRICE}"], [$helmet], Loader::getMessage($player, "Messages.successful-purchase")));
-                        $player->getInventory()->addItem(ItemUtils::getHeltmetX()->setCount(1));
+                        $player->getInventory()->addItem(ItemUtils::getHeltmetX()->setCount(1)->setCustomName(Loader::getMessage($player, "ExtrasShop-info.helmet-name")));
                         PluginUtils::PlaySound($player, "random.levelup", 1, 1.5);
                     }else{
                         $player->removeCurrentWindow();
@@ -234,7 +234,7 @@ class ExtraMenu{
                     if($money >= $chestplate){
                         Loader::getEconomy()->takeMoney($player, $chestplate);
                         $player->sendMessage(Loader::Prefix(). str_replace(["{PRICE}"], [$chestplate], Loader::getMessage($player, "Messages.successful-purchase")));
-                        $player->getInventory()->addItem(ItemUtils::getChestPlateX()->setCount(1));
+                        $player->getInventory()->addItem(ItemUtils::getChestPlateX()->setCount(1)->setCustomName(Loader::getMessage($player, "ExtrasShop-info.chestplate-name")));
                         PluginUtils::PlaySound($player, "random.levelup", 1, 1.5);
                     }else{
                         $player->removeCurrentWindow();
@@ -263,7 +263,7 @@ class ExtraMenu{
                     if($money >= $totem){
                         Loader::getEconomy()->takeMoney($player, $totem);
                         $player->sendMessage(Loader::Prefix(). str_replace(["{PRICE}"], [$totem], Loader::getMessage($player, "Messages.successful-purchase")));
-                        $player->getInventory()->addItem(VanillaItems::TOTEM()->setCount(1));
+                        $player->getInventory()->addItem(VanillaItems::TOTEM()->setCount(1)->setCustomName(Loader::getMessage($player, "ExtrasShop-info.leggings-name")));
                         PluginUtils::PlaySound($player, "random.levelup", 1, 1.5);
                     }else{
                         $player->removeCurrentWindow();
@@ -292,7 +292,7 @@ class ExtraMenu{
                     if($money >= $leggings){
                         Loader::getEconomy()->takeMoney($player, $leggings);
                         $player->sendMessage(Loader::Prefix(). str_replace(["{PRICE}"], [$leggings], Loader::getMessage($player, "Messages.successful-purchase")));
-                        $player->getInventory()->addItem(ItemUtils::getLeggingsX()->setCount(1));
+                        $player->getInventory()->addItem(ItemUtils::getLeggingsX()->setCount(1)->setCustomName(Loader::getMessage($player, "ExtrasShop-info.boots-name")));
                         PluginUtils::PlaySound($player, "random.levelup", 1, 1.5);
                     }else{
                         $player->removeCurrentWindow();
