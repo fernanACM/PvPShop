@@ -81,6 +81,7 @@ class Loader extends PluginBase{
         "ger", // German
         "frc", // French
         "portg", // Portuguese
+        "indo", // Indonesian
         "vie" // Vietnamese
     ];
 

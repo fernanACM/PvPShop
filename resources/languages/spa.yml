@@ -55,7 +55,7 @@ Menu-category:
   extras-name: "{RESET}{BOLD}{PINK}TIENDA DE EXTRAS"
   extras-info: "{YELLOW}Aquí compra artículos necesarios y raros para usar en combate."
 
-  coming-soon-name: "{RESET}{BOLD}{RED}COMING SOON AVAILABLE"
+  coming-soon-name: "{RESET}{BOLD}{RED}PROXIMAMENTE"
 
   close: "{RESET}{BOLD}{DARK_RED}CERRAR MENÚ"
   return: "{RESET}{BOLD}{DARK_GREEN}VOLVER AL MENÚ"

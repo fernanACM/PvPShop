@@ -5,10 +5,10 @@
 #  |_|       \_/   |_|     |____/  |_| |_|  \___/  | .__/ 
 #                by fernanACM                      |_|    
 
-# Basic shop to buy pvp items. We have special items in this 
-# store to make it much more special.
+# Einfacher Shop, um PvP-Artikel zu kaufen. Darin haben wir Sonderposten
+# einkaufen, um es noch spezieller zu machen.
 
-# Language version. DO NOT TOUCH
+# Sprachversion. NICHT TASTEN
 language-version: "1.0.0"
 # ======(KEYS)======
 
@@ -35,11 +35,11 @@ language-version: "1.0.0"
 # "{BOLD}" => TextFormat::BOLD,
 # "{RESET}" => TextFormat::RESET
 
-MenuCategory-name: "{BOLD}{BLUE}PVP SHOP"
-ArmorShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}Rüstung"
-ToolsShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}Werkzeuge"
-FoodShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}Essen"
-ExtrasShop-name: "{BOLD}{BLUE}PVP SHOP {GREEN}- {PURPLE}Extras"
+MenuCategory-name: "{BOLD}{BLUE}LADEN SHOP"
+ArmorShop-name: "{BOLD}{BLUE}LADEN SHOP {GREEN}- {PURPLE}Rüstung"
+ToolsShop-name: "{BOLD}{BLUE}LADEN SHOP {GREEN}- {PURPLE}Werkzeuge"
+FoodShop-name: "{BOLD}{BLUE}LADEN SHOP {GREEN}- {PURPLE}Essen"
+ExtrasShop-name: "{BOLD}{BLUE}LADEN SHOP {GREEN}- {PURPLE}Extras"
 
 # Menu Category
 Menu-category:
