@@ -1,1 +1,167 @@
+#   ____            ____    ____    _                     
+#  |  _ \  __   __ |  _ \  / ___|  | |__     ___    _ __  
+#  | |_) | \ \ / / | |_) | \___ \  | '_ \   / _ \  | '_ \ 
+#  |  __/   \ V /  |  __/   ___) | | | | | | (_) | | |_) |
+#  |_|       \_/   |_|     |____/  |_| |_|  \___/  | .__/ 
+#                by fernanACM                      |_|    
 
+# Loja básica para comprar itens pvp. Temos itens especiais em
+# Esta loja
+
+# Versão do idioma. NÃO TOQUE
+language-version: "1.0.0"
+# ======(CLAVES)======
+
+# "{LINE}" => "\n",
+# - COLORES
+#  & => §,
+# "{BLACK}" => TextFormat::BLACK,
+# "{DARK_BLUE}" => TextFormat::DARK_BLUE,
+# "{DARK_GREEN}" => TextFormat::DARK_GREEN,
+# "{CYAN}" => TextFormat::DARK_AQUA,
+# "{DARK_RED}" => TextFormat::DARK_RED,
+# "{PURPLE}" => TextFormat::DARK_PURPLE,
+# "{GOLD}" => TextFormat::GOLD,
+# "{GRAY}" => TextFormat::GRAY,
+# "{DARK_GRAY}" => TextFormat::DARK_GRAY,
+# "{BLUE}" => TextFormat::BLUE,
+# "{GREEN}" => TextFormat::GREEN,
+# "{AQUA}" => TextFormat::AQUA,
+# "{RED}" => TextFormat::RED,
+# "{PINK}" => TextFormat::LIGHT_PURPLE,
+# "{YELLOW}" => TextFormat::YELLOW,
+# "{WHITE}" => TextFormat::WHITE,
+# "{ORANGE}" => "§6"
+# "{BOLD}" => TextFormat::BOLD,
+# "{RESET}" => TextFormat::RESET
+
+MenuCategory-name: "{BOLD}{BLUE}LOJA PVP"
+ArmorShop-name: "{BOLD}{BLUE}LOJA PVP {GREEN}- {PURPLE}ARMADURA"
+ToolsShop-name: "{BOLD}{BLUE}LOJA PVP {GREEN}- {PURPLE}FERRAMENTAS"
+FoodShop-name: "{BOLD}{BLUE}LOJA PVP {GREEN}- {PURPLE}COMIDA"
+ExtrasShop-name: "{BOLD}{BLUE}LOJA PVP {GREEN}- {PURPLE}EXTRAS"
+
+# Menu de categorias
+Menu-category:
+  armor-name: "{RESET}{BOLD}{BLUE}LOJA DE ARMADURA"
+  armor-info: "{YELLOW}Aqui você pode comprar uma grande variedade de tipos de armaduras ao melhor preço"
+
+  tools-name: "{RESET}{BOLD}{GREEN}LOJA DE FERRAGENS"
+  tools-info: "{YELLOW}Aqui você pode comprar as ferramentas necessárias para o combate."
+
+  food-name: "{RESET}{BOLD}{ORANGE}LOJA DE ALIMENTOS"
+  food-info: "{YELLOW}Aqui você encontra os melhores lanches para você"
+
+  extras-name: "{RESET}{BOLD}{PINK}LOJA EXTRAS"
+  extras-info: "{YELLOW}Aqui compre itens necessários e raros para usar em combate."
+
+  coming-soon-name: "{RESET}{BOLD}{RED}EM BREVE"
+
+  close: "{RESET}{BOLD}{DARK_RED}FECHAR MENU"
+  return: "{RESET}{BOLD}{DARK_GREEN}VOLTAR AO MENU"
+
+# Uso importante de {PRICE} para ver o preço dos itens
+ArmorShop-info:
+  leather_helmet: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  leather_chestplate: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  leather_leggings: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  leather_boots: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+
+  golden_helmet: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  golden_chestplate: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  golden_leggings: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  golden_boots: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+
+  chainmail_helmet: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  chainmail_chestplate: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  chainmail_leggings: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  chainmail_boots: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+
+  iron_helmet: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  iron_chestplate: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  iron_leggings: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  iron_boots: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+
+  diamond_helmet: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  diamond_chestplate: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  diamond_leggings: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  diamond_boots: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+
+# Uso importante de {PRICE} para ver o preço dos itens
+ToolsShop-info:
+  wood_sword: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  wood_pickaxe: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  wood_axe: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+
+  stone_sword: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  stone_pickaxe: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  stone_axe: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+
+  golden_sword: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  golden_pickaxe: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  golden_axe: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+
+  iron_sword: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  iron_pickaxe: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  iron_axe: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+
+  diamond_sword: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  dimaond_pickaxe: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  dimaond_axe: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+
+# uso importante de {COUNT} para ver o valor a receber
+# Uso importante de {PRICE} para ver o preço dos itens
+FoodShop-info:
+  chicken: "{RESET}{ORANGE} x{COUNT} custo {AQUA}${PRICE}"
+  mutton: "{RESET}{ORANGE} x{COUNT} custo {AQUA}${PRICE}"
+  porkchop: "{RESET}{ORANGE} x{COUNT} custo {AQUA}${PRICE}"
+  rabbit: "{RESET}{ORANGE} x{COUNT} custo {AQUA}${PRICE}"
+  salmon: "{RESET}{ORANGE} x{COUNT} custo {AQUA}${PRICE}"
+  golden_apple: "{RESET}{ORANGE} x{COUNT} custo {AQUA}${PRICE}"
+  enchanted_golden_apple: "{RESET}{ORANGE} x{COUNT} custo {AQUA}${PRICE}"
+
+ExtrasShop-info:
+  # Uso importante de {PRICE} para ver o preço dos itens
+  totem: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  # Uso importante de {PRICE} para ver o preço dos itens
+  # Uso importante de {TIME} para ver o tempo de espera
+  speed: "{RESET}{ORANGE} x1 custo{AQUA}${PRICE}"
+  speed-name: "{RESET}{BOLD}{RED}RAPIDEZ ACM"
+  speed-info: "{RESET}{AQUA}[SERVI APENAS PARA VOCÊ]{LINE}{GREEN}- x2 velocidade por {TIME} segundos{LINE}{ORANGE}- x1 velocidade de mineração por 5 segundos{LINE}{PINK}- x1 regeneração por 3 segundos"
+  # Uso importante de {PRICE} para ver el precio de los items
+  # Uso importante de {TIME} para ver o tempo de espera
+  health: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  health-name: "{RESET}{BOLD}{ORANGE}SALUD ACM"
+  health-info: "{RESET}{AQUA}[SOMENTE PARA VOCÊ]{LINE}{GREEN}- x2 regeneração por {TIME} segundos{LINE}{ORANGE}- x2 resistência por 8 segundos{LINE}{PINK}- x2 lento por 10 segundos"
+  # Uso importante de {PRICE} para ver o preço dos itens
+  # Uso importante de {TIME} para ver o tempo de espera
+  soup: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  soup-name: "{RESET}{BOLD}{BLUE}SOPA ACM"
+  soup-info: "{RESET}{AQUA}[SOMENTE PARA INIMIGOS]{LINE}{GREEN}- x1 murchar por {TIME} segundos{LINE}{ORANGE}- x1 cegar por 10 segundos{LINE}{PINK}- x1 pular por 3 segundos"
+  
+  # Uso importante de {PRICE} para ver o preço dos itens
+  helmet: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  helmet-name: "{RESET}{BOLD}{AQUA}CAPACETE MÁGICO"
+  helmet-info: "{RESET}{AQUA}- x1 visão noturna{LINE}{GREEN}- x1 fome pelo inimigo por 10 segundos"
+
+  chestplate: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  chestplate-name: "{RESET}{BOLD}{AQUA}BAÚ MÁGICO"
+  chestplate-info: "{RESET}{AQUA}- x2 velocidade de mineração {LINE}{GREEN}- x1 enjoa o inimigo por 3 segundos{LINE}{PINK}- x1 murcha o inimigo por 5 segundos"
+
+  leggings: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  leggings-name: "{RESET}{BOLD}{AQUA}CALÇA MÁGICA"
+  leggings-info: "{RESET}{AQUA}- x2 pule {LINE}{GREEN}- x1 resistência ao fogo{LINE}{PINK}- x1 regeneração para o inimigo por 8 segundos"
+
+  boots: "{RESET}{ORANGE} x1 custo {AQUA}${PRICE}"
+  boots-name: "{RESET}{BOLD}{AQUA}BOTA MÁGICA"
+  boots-info: "{RESET}{AQUA}- x1 velocidade{LINE}{GREEN}- sem dano de queda{LINE}{PINK}- x1 de cegueira para o inimigo por 10 segundos"
+
+Messages:
+  no-permission: "{RED}Você não tem permissão para isso!"
+  # Uso importante de {PRICE} para ver o preço dos itens
+  successful-purchase: "{GREEN}Sua compra foi bem-sucedida com um preço de {AQUA}${PRICE}"
+  no-money: "{RED}Você não tem dinheiro suficiente para comprar este item!"
+  inventory-full: "{RED}Seu inventário está cheio!"
+  # Uso importante de {TIME} para ver o tempo de espera
+  in-cooldown: "{RED}Aguarde {TIME} segundos para usá-lo novamente"
+  coming-soon: "{RED}BREVE..."

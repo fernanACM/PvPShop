@@ -141,19 +141,19 @@ ExtrasShop-info:
   
   # Utilisation importante de {PRICE} pour voir le prix des articles
   helmet: "{RESET}{ORANGE} x1 coût {AQUA}${PRICE}"
-  helmet-name: "{RESET}{BOLD}{AQUA}CASCO MÁGICO"
+  helmet-name: "{RESET}{BOLD}{AQUA}CASQUE MAGIQUE"
   helmet-info: "{RESET}{AQUA}- x1 vision nocturne{LINE}{GREEN}- x1 avoir faim de l'ennemi pendant 10 secondes"
 
   chestplate: "{RESET}{ORANGE} x1 coût {AQUA}${PRICE}"
-  chestplate-name: "{RESET}{BOLD}{AQUA}PECHERA MÁGICA"
+  chestplate-name: "{RESET}{BOLD}{AQUA}COFFRE MAGIQUE"
   chestplate-info: "{RESET}{AQUA}- x2 vitesse de minage{LINE}{GREEN}- x1 donne la nausée à l'ennemi pendant 3 secondes{LINE}{PINK}- x1 wither pour l'ennemi pendant 5 secondes"
 
   leggings: "{RESET}{ORANGE} x1 coût {AQUA}${PRICE}"
-  leggings-name: "{RESET}{BOLD}{AQUA}PANTALON MÁGICO"
+  leggings-name: "{RESET}{BOLD}{AQUA}PANTALON MAGIQUE"
   leggings-info: "{RESET}{AQUA}- x2 saut {LINE}{GREEN}- x1 résistance au feu{LINE}{PINK}- x1 régénération pour l'ennemi pendant 8 secondes"
 
   boots: "{RESET}{ORANGE} x1 coût {AQUA}${PRICE}"
-  boots-name: "{RESET}{BOLD}{AQUA}BOTA MÁGICA"
+  boots-name: "{RESET}{BOLD}{AQUA}BOTTE MAGIQUE"
   boots-info: "{RESET}{AQUA}- x1 vitesse{LINE}{GREEN}- pas de dégâts de chute{LINE}{PINK}- x1 aveuglement pour l'ennemi pendant 10 secondes"
 
 Messages:
