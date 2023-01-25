@@ -126,17 +126,17 @@ ExtrasShop-info:
   # Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
   # Es ist wichtig, {TIME} zu verwenden, um die Abklingzeit anzuzeigen
   speed: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
-  speed-name: "{RESET}{BOLD}{RED}SPEED ACM"
+  speed-name: "{RESET}{BOLD}{RED}GESCHWINDIGKEIT ACM"
   speed-info: "{RESET}{AQUA}[Nur für dich!]{LINE}{GREEN}- x2 Schnelligkeit für {TIME} Sekunden{LINE}{ORANGE}- x1 Schneller Abbauen für 5 Sekunden{LINE}{PINK}- x1 Regeneration für 3 Sekunden"
   # Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
   # Es ist wichtig, {TIME} zu verwenden, um die Abklingzeit anzuzeigen
   health: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
-  health-name: "{RESET}{BOLD}{ORANGE}HEALTH ACM"
+  health-name: "{RESET}{BOLD}{ORANGE}GESUNDHEIT ACM"
   health-info: "{RESET}{AQUA}[Nur für dich!]{LINE}{GREEN}- x2 Regeneration für {TIME} Sekunden{LINE}{ORANGE}- x2 Widerstand für 8 Sekunden{LINE}{PINK}- x2 Langsamkeit für 10 Sekunden"
   # Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
   # Es ist wichtig, {TIME} zu verwenden, um die Abklingzeit anzuzeigen
   soup: "{RESET}{ORANGE} x1 Preis: {AQUA}${PRICE}"
-  soup-name: "{RESET}{BOLD}{BLUE}SOUP ACM"
+  soup-name: "{RESET}{BOLD}{BLUE}SUPPE ACM"
   soup-info: "{RESET}{AQUA}[Nur für den Gegner]{LINE}{GREEN}- x1 Wither für {TIME} Sekunden{LINE}{ORANGE}- x1 Blindheit für 10 Sekunden{LINE}{PINK}- x1 Höher Springen für 3 Sekunden"
   
   # Es ist wichtig, {PRICE} zu verwenden, um den Preis des Artikels anzuzeigen
