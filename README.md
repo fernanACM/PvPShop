@@ -5,7 +5,7 @@
 
 **A basic pvp item shop. We also added items and armor with magical powers.**
 
-![Captura de pantalla_20230125_181536](https://user-images.githubusercontent.com/83558341/214719816-18f76527-2251-4567-815a-c089956b58b8.png)
+![pvpshop-icon](https://user-images.githubusercontent.com/83558341/215066906-5c06393b-4ada-4222-bcec-a7e47ce8af4d.png)
 
 <a href="https://discord.gg/YyE9XFckqb"><img src="https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord" alt="Discord" /></a>
 
@@ -185,12 +185,12 @@
 ### 🌐 MultiLanguage
 | Language | Translated by |
 |----------|---------------|
-| English | |
+| English | [fernanACM](https://github.com/fernanACM) |
 | Spanish | [fernanACM](https://github.com/fernanACM) |
-| Indonesian | |
+| Indonesian | PvPShop |
 | German | [GamerMJay](https://github.com/GamerMJay) |
-| French | |
-| Portuguese | |
+| French | PvPShop |
+| Portuguese | PvPShop |
 | Vietnamese | [NhanAZ](https://github.com/NhanAZ) |
 ***
 
