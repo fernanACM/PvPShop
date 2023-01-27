@@ -10,10 +10,10 @@ projects:
       - src: muqsit/InvMenu/InvMenu
         version: ^4.4.1
         branch: "4.0"
-      - src: DaPigGuy\libPiggyEconomy\libPiggyEconomy
+      - src: DaPigGuy/libPiggyEconomy/libPiggyEconomy
         version: ^3.0.1
         branch: "master"
-      - src: DaPigGuy\libPiggyUpdateChecker\libPiggyUpdateChecker
+      - src: DaPigGuy/libPiggyUpdateChecker/libPiggyUpdateChecker
         version: ^1.0.0
         branch: "master"
     lint:
