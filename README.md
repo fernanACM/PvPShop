@@ -81,80 +81,80 @@
   
      # ========(CATEGORY - FOOD)============
      Food:
-      chicken: 30
-      # Amount to receive
-      chicken-count: 22
+       chicken: 30
+       # Amount to receive
+       chicken-count: 22
 
-      mutton: 30
-      # Amount to receive
-      mutton-count: 22
+       mutton: 30
+       # Amount to receive
+       mutton-count: 22
 
-      porkchop: 60
-      # Amount to receive
-      porkchop-count: 22
+       porkchop: 60
+       # Amount to receive
+       porkchop-count: 22
 
-      rabbit: 50
-      # Amount to receive
-      rabbit-count: 22
+       rabbit: 50
+       # Amount to receive
+       rabbit-count: 22
 
-      salmon: 20
-      # Amount to receive
-      salmon-count: 22
+       salmon: 20
+       # Amount to receive
+       salmon-count: 22
 
-      golden_apple: 120
-      # Amount to receive
-      golden_apple-count: 5
+       golden_apple: 120
+       # Amount to receive
+       golden_apple-count: 5
 
-      enchanted_golden_apple: 300
-      # Amount to receive
-      enchanted_golden_apple-count: 2
+       enchanted_golden_apple: 300
+       # Amount to receive
+       enchanted_golden_apple-count: 2
 
       # ========(CATEGORY - TOOLS)=============
-      Tools:
-        # ===(WOOD)===
-        wood_sword: 2
-        wood_pickaxe: 2
-        wood_axe: 2
-        # ===(STONE)===
-        stone_sword: 10
-        stone_pickaxe: 10
-        stone_axe: 10
-        # ===(GOLDEN)===
-        golden_sword: 20
-        golden_pickaxe: 20
-        golden_axe: 20
-        # ===(IRON)===
-        iron_sword: 30
-        iron_pickaxe: 30
-        iron_axe: 30
-        # ===(DIAMOND)===
-        diamond_sword: 60 
-        diamond_pickaxe: 60 
-        diamond_axe: 60
+     Tools:
+       # ===(WOOD)===
+       wood_sword: 2
+       wood_pickaxe: 2
+       wood_axe: 2
+       # ===(STONE)===
+       stone_sword: 10
+       stone_pickaxe: 10
+       stone_axe: 10
+       # ===(GOLDEN)===
+       golden_sword: 20
+       golden_pickaxe: 20
+       golden_axe: 20
+       # ===(IRON)===
+       iron_sword: 30
+       iron_pickaxe: 30
+       iron_axe: 30
+       # ===(DIAMOND)===
+       diamond_sword: 60 
+       diamond_pickaxe: 60 
+       diamond_axe: 60
 
-      Extras:
-        totem: 300
-      # ====(MAGIC ITEMS)=====
-        speed: 800
-        health: 850
-        soup: 450
-      # =====(MAGIC ARMOR)=====
-        helmet: 1250
-        chestplate:  1350
-        leggings: 1310
-        boots: 1320
-      # ====(Cooldown)====
-      Cooldown:
-      # items
-      Items:
-        speed: 60
-        health: 60
-        soup: 60
+     Extras:
+       totem: 300
+       # ====(MAGIC ITEMS)=====
+       speed: 800
+       health: 850
+       soup: 450
+       # =====(MAGIC ARMOR)=====
+       helmet: 1250        
+       chestplate:  1350
+       leggings: 1310
+       boots: 1320
+       # ====(Cooldown)====
+     Cooldown:
+       # items
+       Items:
+         speed: 60
+         health: 60
+         soup: 60
       # Potions
-      Potions:
-        speed: 30
-        health: 30
-        soup: 30
+       Potions:
+         speed: 30
+         health: 30
+         soup: 30
 ```
 
 ### 🕹 Commands
@@ -182,6 +182,18 @@
 - ```pvpshop.armor.leggings```
 - ```pvpshop.armor.boots```
 
+### 🌐 MultiLanguage
+| Language | Translated by |
+|----------|---------------|
+| English | |
+| Spanish | [fernanACM](https://github.com/fernanACM) |
+| Indonesian | |
+| German | [GamerMJay](https://github.com/GamerMJay) |
+| French | |
+| Portuguese | |
+| Vietnamese | [NhanAZ](https://github.com/NhanAZ) |
+***
+
 ### 📞 Contact 
 | Redes | Tag | Link |
 |-------|-------------|------|
@@ -189,4 +201,12 @@
 | Discord | fernanACM#5078 | [Discord](https://discord.gg/YyE9XFckqb) |
 | GitHub | fernanACM | [GitHub](https://github.com/fernanACM)
 | Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)
+****
+
+### ✔ Credits
+| Authors | Github | Lib |
+|---------|--------|-----|
+| Muqsit | [Muqsit](https://github.com/Muqsit) | [InvMenu](https://github.com/Muqsit/InvMenu) |
+| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyEconomy](https://github.com/DaPigGuy/libPiggyEconomy) |
+| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyUpdateChecker](https://github.com/DaPigGuy/libPiggyUpdateChecker) |
 ****
