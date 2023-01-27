@@ -5,6 +5,7 @@ api: 4.0.0
 author: fernanACM
 website: https://github.com/fernanACM
 description: Basic shop to buy items for PvP. For PocketMine-MP 4.0 server only
+softdepend: ["EconomyAPI", "BedrockEconomy"]
 
 permissions:
   pvpshop.command.acm:
