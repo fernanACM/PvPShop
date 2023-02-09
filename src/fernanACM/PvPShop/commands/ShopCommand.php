@@ -12,19 +12,22 @@ namespace fernanACM\PvPShop\commands;
 
 use pocketmine\player\Player;
 
-use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+
+use CortexPE\Commando\BaseCommand;
+use CortexPE\Commando\args\RawStringArgument;
 
 use fernanACM\PvPShop\Loader;
 use fernanACM\PvPShop\utils\PluginUtils;
 
-class ShopCommand extends Command{
+class ShopCommand extends BaseCommand{
 
-    public function __construct(){
-        parent::__construct("pvpshop", "Item shop for PvP use by fernanACM", null, ["pshop"]);
+    protected function prepare(): void{
+        $this->setPermission("pvpshop.command.acm");
+        $this->registerArgument(0, new RawStringArgument("type", true));
     }
 
-    public function execute(CommandSender $sender, string $commandLabel, array $args){
+    public function onRun(CommandSender $sender, string $aliasUsed, array $args): void{
         if(!$sender->hasPermission("pvpshop.command.acm")){
             $sender->sendMessage(Loader::Prefix(). Loader::getMessage($sender, "Messages.no-permission"));
             PluginUtils::PlaySound($sender, "mob.villager.no", 1, 1);
@@ -36,7 +39,7 @@ class ShopCommand extends Command{
             return;
         }
 
-        if(!isset($args[0])){
+        if(!isset($args["type"])){
             if(!$sender->hasPermission("pvpshop.command.acm")){
                 $sender->sendMessage(Loader::Prefix(). Loader::getMessage($sender, "Messages.no-permission"));
                 PluginUtils::PlaySound($sender, "mob.villager.no", 1, 1);
@@ -47,8 +50,7 @@ class ShopCommand extends Command{
             PluginUtils::PlaySound($sender, "random.chestopen");
             return;
         }
-
-        switch($args[0]){
+        switch($args["type"]){
             case "help":
             case "?":
                 $sender->sendMessage("§l§e=====( PVPSHOP )=====");
@@ -111,7 +113,7 @@ class ShopCommand extends Command{
                 return;
             }
 
-            $sender->sendMessage(Loader::Prefix(). Loader::getMessage($sender, "Messages.command-error"));
+            $sender->sendMessage(Loader::Prefix(). "§c/pvpshop help");
             PluginUtils::PlaySound($sender, "mob.villager.no", 1, 1);
             break;
         }

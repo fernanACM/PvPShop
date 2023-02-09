@@ -23,6 +23,9 @@ use DaPigGuy\libPiggyEconomy\providers\EconomyProvider;
 use DaPigGuy\libPiggyUpdateChecker\libPiggyUpdateChecker;
 
 use muqsit\invmenu\InvMenuHandler;
+
+use CortexPE\Commando\BaseCommand;
+use CortexPE\Commando\PacketHooker;
 # My files
 use fernanACM\PvPShop\utils\PluginUtils;
 
@@ -139,6 +142,7 @@ class Loader extends PluginBase{
     public function loadVirions(){
         foreach ([
         	"InvMenu" => InvMenuHandler::class,
+            "Commando" => BaseCommand::class,
             "libPiggyEconomy" => libPiggyEconomy::class,
             "libPiggyUpdateChecker" => libPiggyUpdateChecker::class
             ] as $virion => $class
@@ -158,6 +162,10 @@ class Loader extends PluginBase{
             InvMenuHandler::register($this);
         }
 
+        if(!PacketHooker::isRegistered()){
+            PacketHooker::register($this);
+        }
+
         if($this->getServer()->getPluginManager()->getPlugin("InvCrashFix") === null){
             $this->getLogger()->error("Missing InvCrashFix plugin. Menus may not work as intended. Download: https://poggit.pmmp.io/r/197673/InvCrashFix_dev-5.phar");
         }
@@ -168,7 +176,7 @@ class Loader extends PluginBase{
     }
 
     public function loadCommands(){
-        Server::getInstance()->getCommandMap()->register("pvpshop", new ShopCommand($this));
+        Server::getInstance()->getCommandMap()->register("pvpshop", new ShopCommand($this, "pvpshop", "Item shop for PvP use by fernanACM", ["pshop"]));
     }
 
     public static function getMessage(Player $player, string $key): string{
