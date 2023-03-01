@@ -19,9 +19,9 @@ projects:
       - src: DaPigGuy/libPiggyUpdateChecker/libPiggyUpdateChecker
         version: ^1.0.0
         branch: "master"
-      - src: CortexPE/Commando
-        version:  ^3.1.0
-        branch: "master"
+      - src: CortexPE/Commando/Commando
+        version:  ^3.0.0
+        branch: PM4
     lint:
       phpstan: false
 ...
