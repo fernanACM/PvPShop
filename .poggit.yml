@@ -10,6 +10,9 @@ projects:
       - src: muqsit/InvMenu/InvMenu
         version: ^4.4.1
         branch: "4.0"
+      - src: muqsit/simplepackethandler/SimplePacketHandler
+        version: ^0.1.2
+        branch: "master"
       - src: DaPigGuy/libPiggyEconomy/libPiggyEconomy
         version: ^3.0.1
         branch: "master"
@@ -17,8 +20,8 @@ projects:
         version: ^1.0.0
         branch: "master"
       - src: CortexPE/Commando/Commando
-        version:  ^3.0.0
-        branch: PM4
+        version:  ^3.1.0
+        branch: "master"
     lint:
       phpstan: false
 ...
