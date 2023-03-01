@@ -23,6 +23,7 @@ use DaPigGuy\libPiggyEconomy\providers\EconomyProvider;
 use DaPigGuy\libPiggyUpdateChecker\libPiggyUpdateChecker;
 
 use muqsit\invmenu\InvMenuHandler;
+use muqsit\simplepackethandler\SimplePacketHandler;
 
 use CortexPE\Commando\BaseCommand;
 use CortexPE\Commando\PacketHooker;
@@ -142,6 +143,7 @@ class Loader extends PluginBase{
     public function loadVirions(){
         foreach ([
         	"InvMenu" => InvMenuHandler::class,
+            "SimplePacketHandler" => SimplePacketHandler::class,
             "Commando" => BaseCommand::class,
             "libPiggyEconomy" => libPiggyEconomy::class,
             "libPiggyUpdateChecker" => libPiggyUpdateChecker::class
